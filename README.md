@@ -1,2 +1,2 @@
 # DSFusion
-A new infrared and visible image fusion method
+A novel infrared and visible image fusion method
