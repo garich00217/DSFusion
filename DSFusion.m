@@ -3,17 +3,11 @@ clear;
 close all;
 clc;
 
-datasetnum = 1;  % 1=TNO， 2=LLVIP
+% 图片名称为数字排列
 
-if datasetnum == 1
-    dataset = 'TNO';
-    type = '.png';
-    num = 42;
-else
-    dataset = 'LLVIP';
-    type = '.jpg';
-    num = 200;
-end
+dataset = '' % 数据集文件名称
+type = '' % 图片格式
+num = '' % 图片总数
 
 for i=1:1
     tic
